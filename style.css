@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Poppins', sans-serif;
+   text-align: center;
+   background: linear-gradient(to right, #e0eafc, #cfdef3);
+}
+
+h1 {
+   font-size: 3.5rem;
+   font-weight: 900;
+   text-transform: uppercase;
+   margin-top: 2rem;
+   margin-bottom: 0;
+   font-family: 'Bubblegum Sans', sans-serif;
+}
+
+.text-accent {
+   color: #005c97;
+}
+
+.fs-500 {
+   font-size: 1.35rem;
+   margin: 0;
+}
+
+.mb {
+   margin-bottom: 0.5rem;
+}
+
+.plans {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin: 2rem 0;
+}
+
+.plan {
+   width: 20.5rem;
+   padding: 4rem;
+   border-radius: 1rem;
+   margin: 0 0.5rem 1rem;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   box-shadow: 13px 10px 43px -18px rgba(0, 0, 0, 0.4);
+}
+
+.plan:hover {
+   transform: scale(1.04);
+}
+
+.plan-light {
+   color: #333;
+   background: linear-gradient(-45deg, #e5e3e8, #fafafa);
+}
+
+.plan-light .plan-price {
+   font-family: 'Bubblegum Sans', sans-serif;
+   color: #005c97;
+}
+
+.plan-light .btn {
+   color: #fff;
+   background: #333;
+   text-decoration: none;
+}
+
+.plan-accent {
+   color: #fff;
+   background: linear-gradient(-45deg, #005c97, #363795);
+}
+
+.plan-accent .btn {
+   color: #333;
+   background: #fff;
+}
+
+.plan-title {
+   text-transform: uppercase;
+   margin: 0 0 1rem;
+}
+
+.plan-price {
+   font-family: 'Bubblegum Sans', sans-serif;
+   margin: 0;
+   font-size: 4rem;
+   line-height: 1;
+   font-weight: 900;
+}
+
+.plan-price span {
+   display: block;
+   font-size: 2.56rem;
+   font-weight: 300;
+}
+
+.plan-description {
+   font-size: 1.2rem;
+   margin: 2rem 0;
+   line-height: 1.5;
+}
+
+.btn {
+   letter-spacing: 1px;
+   display: inline-block;
+   padding: 0.9rem 1rem;
+   border-radius: 0.35rem;
+   text-transform: uppercase;
+   text-decoration: none;
+   font-size: 1rem;
+   font-weight: 700;
+   color: #fff;
+   background: linear-gradient(-45deg, #005c97, #363795);
+   transition: all 0.3s ease;
+}
+
+.btn:hover {
+   opacity: 0.9;
+}
+
+.btn-mb {
+   margin: 1rem 3rem 2rem;
+}
+
+@media screen and (max-width: 768px) {
+   .plan {
+      margin: 0 0.5rem 2rem;
+   }
+}
